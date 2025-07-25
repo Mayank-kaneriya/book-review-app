@@ -26,15 +26,15 @@ A full-stack web application where users can sign up, log in, add books, write r
 ## 🛠 Tech Stack
 
 ### 🔧 Backend
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- JWT Authentication
+- Node.js |
+- Express.js |
+- MongoDB + Mongoose |
+- JWT Authentication |
 - RESTful API
 
 ### 💻 Frontend
-- React (with Hooks)
-- Axios
+- React (with Hooks) |
+- Axios |
 - React Router DOM
 
 ---
@@ -43,12 +43,12 @@ A full-stack web application where users can sign up, log in, add books, write r
 
 ### 🖥 Clone the Repository
 
-git clone https://github.com/mayank-kaneriya/book-review-app.git
+git clone https://github.com/mayank-kaneriya/book-review-app.git |
 cd book-review-app
 
 
 Backend Setup--->
-cd backend
+cd backend |
 npm install
 
 Create a .env file inside /backend:
@@ -58,26 +58,13 @@ PORT=5000
 
 Frontend Setup--->
 cd frontend
-npm install
+npm install |
 npm start
 
-App Structure--->
-book-review-app/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── server.js
-│
-├── frontend/
-│   ├── pages/
-│   ├── components/
-│   └── App.js
 
-
-User Flow--->
-1.Sign up or log in
-2.View all books (with filters)
-3.Add a new book
-4.Click on a book to view its reviews
+User Flow : 
+1.Sign up or log in |
+2.View all books (with filters) |
+3.Add a new book |
+4.Click on a book to view its reviews |
 5.Submit your own review and rating
