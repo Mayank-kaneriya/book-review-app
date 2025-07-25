@@ -52,8 +52,8 @@ cd backend |
 npm install
 
 Create a .env file inside /backend:
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
+MONGO_URI=your_mongodb_uri | 
+JWT_SECRET=your_jwt_secret |
 PORT=5000
 
 Frontend Setup--->
