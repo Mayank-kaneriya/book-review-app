@@ -43,11 +43,11 @@ A full-stack web application where users can sign up, log in, add books, write r
 
 ### 🖥 Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/book-review-app.git
+git clone https://github.com/mayank-kaneriya/book-review-app.git
 cd book-review-app
 
 
-------Backend Setup--------------
+Backend Setup--->
 cd backend
 npm install
 
@@ -56,12 +56,12 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
--------Frontend Setup------------
+Frontend Setup--->
 cd frontend
 npm install
 npm start
 
-App Structure
+App Structure--->
 book-review-app/
 ├── backend/
 │   ├── models/
@@ -75,7 +75,7 @@ book-review-app/
 │   └── App.js
 
 
-----User Flow---------------
+User Flow--->
 1.Sign up or log in
 2.View all books (with filters)
 3.Add a new book
